@@ -29,15 +29,17 @@
 			<br /><br /><br />
 			
 			<!-- TODO à transformer en textarea afin d'avoir une zone de texte plus jolie" -->
-			<textarea id="input" name="textarea" rows="10" cols="50" onfocus="this.innerHTML='';">Text to translate</textarea>
+			<textarea id="Input" name="textarea" rows="10" cols="50" onfocus="this.innerHTML='';">Text to translate</textarea>
 			<br />
 			<input id="Button" type="submit" value="Translate">
 			<br /><br />
-			<output name="output" for="input"></output>
+			<output name="output" id="Output" for="Input"></output>
 		<form action="" method="post">
 		
 		<br /><br /><br /><br /><br />
 		<p>powered by <a href="http://translate.yandex.com/" title="Yandex website">Yandex</a>
+		
+		<script src="/scripts/display.js"> </script>
 		
 	<body/>
 </html>
