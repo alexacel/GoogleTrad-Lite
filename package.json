@@ -1,11 +1,12 @@
 {
-    "name": "GoogleTrad-lite",
-    "version": "0.1.0",
-    "dependencies": {
-        "express": "~4.11.0",
-        "body-parser": "~1.10.1",
-		"request": "~2.81.0"
-    },
-    "author": "Alex <alex@email.com>",
-    "description": "Translation service based on Yandex"
+  "name": "GoogleTrad-lite",
+  "version": "0.1.0",
+  "dependencies": {
+    "body-parser": "~1.10.1",
+    "express": "~4.11.0",
+    "mongodb": "^2.2.25",
+    "request": "~2.81.0"
+  },
+  "author": "Alex <alex@email.com>",
+  "description": "Translation service based on Yandex"
 }
