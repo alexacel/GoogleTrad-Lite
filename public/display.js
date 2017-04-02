@@ -1,1 +1,1 @@
-document.getElementById('Output').innerHTML="bye bye";
+document.getElementById('Output').innerHTML="Bonjour";
