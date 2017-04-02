@@ -1,0 +1,20 @@
+{
+  "name": "GoogleTrad-lite",
+  "version": "0.1.0",
+  "dependencies": {
+    "body-parser": "~1.10.1",
+    "express": "~4.11.0",
+    "mongodb": "^2.2.25",
+    "request": "~2.81.0"
+  },
+  "author": "Alex <alex@email.com>",
+  "description": "Translation service based on Yandex",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.2.1",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
